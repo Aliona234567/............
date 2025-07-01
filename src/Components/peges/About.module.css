@@ -1,0 +1,23 @@
+.about {
+    background-color: var(--gray-100);
+    padding: 4rem 2rem;
+    border-radius: 20px;
+    margin: 2rem;
+  }
+  
+  .about-title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .about-content {
+      grid-template-columns: 1fr;
+    }
+  }
